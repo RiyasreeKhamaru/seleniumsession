@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite" verbose= "2" thread-count="3" parallel="tests">
+ <parameter name="browser" value="Chrome"></parameter>
+ <parameter name="timeout" value="20"></parameter>   	
+
+
+  <test name="Open Cart">
+	 <parameter name="url" value="https://demo.opencart.com/admin/index.php?route=common/login"></parameter>
+      <classes>
+	    <class name="TestNGFeatures.OpenCartLogin"></class>
+	  </classes>
+	</test>
+
+   <test name="Orangehrm TestNG">
+   	 <parameter name="url" value="https://www.orangehrm.com/hris-hr-software-demo/"></parameter>  
+     <classes>
+	    <class name="TestNGFeatures.Orangehrm_TestNG"></class>
+	  </classes>
+	</test>
+ <test name="Test Features">
+   	  <classes>
+	    <class name="TestNGFeatures.TestFeatures"></class>
+	  </classes>
+	</test>
+  
+
+     
+  
+
+
+</suite>

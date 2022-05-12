@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-05T17:15:24Z" name="Practice Suite" finished-at="2022-05-05T17:15:35Z" duration-ms="11059">
+    <groups>
+    </groups>
+    <test started-at="2022-05-05T17:15:24Z" name="Test Features" finished-at="2022-05-05T17:15:24Z" duration-ms="30">
+      <class name="TestNGFeatures.TestFeatures">
+        <test-method is-config="true" signature="createUser()[pri:0, instance:TestNGFeatures.TestFeatures@6e4784bc]" started-at="2022-05-05T22:45:24Z" name="createUser" finished-at="2022-05-05T22:45:24Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:TestNGFeatures.TestFeatures@6e4784bc]" started-at="2022-05-05T22:45:24Z" name="connectDB" finished-at="2022-05-05T22:45:24Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGFeatures.TestFeatures@6e4784bc]" started-at="2022-05-05T22:45:24Z" name="launchBrowser" finished-at="2022-05-05T22:45:24Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="priceData()[pri:0, instance:TestNGFeatures.TestFeatures@6e4784bc]" started-at="2022-05-05T22:45:24Z" name="priceData" finished-at="2022-05-05T22:45:24Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceData -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestNGFeatures.TestFeatures@6e4784bc]" started-at="2022-05-05T22:45:24Z" name="login" finished-at="2022-05-05T22:45:24Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logoutPage()[pri:0, instance:TestNGFeatures.TestFeatures@6e4784bc]" started-at="2022-05-05T22:45:24Z" name="logoutPage" finished-at="2022-05-05T22:45:24Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutPage -->
+        <test-method signature="searchData()[pri:0, instance:TestNGFeatures.TestFeatures@6e4784bc]" started-at="2022-05-05T22:45:24Z" name="searchData" finished-at="2022-05-05T22:45:24Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchData -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestNGFeatures.TestFeatures@6e4784bc]" started-at="2022-05-05T22:45:24Z" name="login" finished-at="2022-05-05T22:45:24Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logoutPage()[pri:0, instance:TestNGFeatures.TestFeatures@6e4784bc]" started-at="2022-05-05T22:45:24Z" name="logoutPage" finished-at="2022-05-05T22:45:24Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutPage -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestNGFeatures.TestFeatures@6e4784bc]" started-at="2022-05-05T22:45:24Z" name="login" finished-at="2022-05-05T22:45:24Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyPage()[pri:0, instance:TestNGFeatures.TestFeatures@6e4784bc]" started-at="2022-05-05T22:45:24Z" name="verifyPage" finished-at="2022-05-05T22:45:24Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPage -->
+        <test-method is-config="true" signature="logoutPage()[pri:0, instance:TestNGFeatures.TestFeatures@6e4784bc]" started-at="2022-05-05T22:45:24Z" name="logoutPage" finished-at="2022-05-05T22:45:24Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGFeatures.TestFeatures@6e4784bc]" started-at="2022-05-05T22:45:24Z" name="closeBrowser" finished-at="2022-05-05T22:45:24Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="disconnectDB()[pri:0, instance:TestNGFeatures.TestFeatures@6e4784bc]" started-at="2022-05-05T22:45:24Z" name="disconnectDB" finished-at="2022-05-05T22:45:24Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectDB -->
+        <test-method is-config="true" signature="deleteUSer()[pri:0, instance:TestNGFeatures.TestFeatures@6e4784bc]" started-at="2022-05-05T22:45:35Z" name="deleteUSer" finished-at="2022-05-05T22:45:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUSer -->
+      </class> <!-- TestNGFeatures.TestFeatures -->
+    </test> <!-- Test Features -->
+    <test started-at="2022-05-05T17:15:24Z" name="Orangehrm TestNG" finished-at="2022-05-05T17:15:33Z" duration-ms="8534">
+      <class name="TestNGFeatures.Orangehrm_TestNG">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNGFeatures.Orangehrm_TestNG@769f71a9]" started-at="2022-05-05T22:45:24Z" name="launchBrowser" finished-at="2022-05-05T22:45:32Z" duration-ms="8283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.orangehrm.com/hris-hr-software-demo/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="pageLaunchVerification()[pri:0, instance:TestNGFeatures.Orangehrm_TestNG@769f71a9]" started-at="2022-05-05T22:45:32Z" name="pageLaunchVerification" finished-at="2022-05-05T22:45:32Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageLaunchVerification -->
+        <test-method signature="headerTextDisplayed()[pri:0, instance:TestNGFeatures.Orangehrm_TestNG@769f71a9]" started-at="2022-05-05T22:45:32Z" name="headerTextDisplayed" finished-at="2022-05-05T22:45:33Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerTextDisplayed -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGFeatures.Orangehrm_TestNG@769f71a9]" started-at="2022-05-05T22:45:33Z" name="closeBrowser" finished-at="2022-05-05T22:45:33Z" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNGFeatures.Orangehrm_TestNG -->
+    </test> <!-- Orangehrm TestNG -->
+    <test started-at="2022-05-05T17:15:24Z" name="Open Cart" finished-at="2022-05-05T17:15:35Z" duration-ms="11059">
+      <class name="TestNGFeatures.OpenCartLogin">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNGFeatures.OpenCartLogin@1e802ef9]" started-at="2022-05-05T22:45:24Z" name="launchBrowser" finished-at="2022-05-05T22:45:30Z" duration-ms="6202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.opencart.com/admin/index.php?route=common/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginOpenCart(java.lang.String, java.lang.String)[pri:0, instance:TestNGFeatures.OpenCartLogin@1e802ef9]" started-at="2022-05-05T22:45:30Z" name="loginOpenCart" data-provider="loginData" finished-at="2022-05-05T22:45:35Z" duration-ms="4604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOpenCart -->
+        <test-method signature="verifyLoginPage()[pri:0, instance:TestNGFeatures.OpenCartLogin@1e802ef9]" started-at="2022-05-05T22:45:35Z" name="verifyLoginPage" finished-at="2022-05-05T22:45:35Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGFeatures.OpenCartLogin@1e802ef9]" started-at="2022-05-05T22:45:35Z" name="closeBrowser" finished-at="2022-05-05T22:45:35Z" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNGFeatures.OpenCartLogin -->
+    </test> <!-- Open Cart -->
+  </suite> <!-- Practice Suite -->
+</testng-results>

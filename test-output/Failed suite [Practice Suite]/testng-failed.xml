@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Practice Suite]]">
+  <test name="Open Cart(failed)(failed)">
+    <classes>
+      <class name="TestNGFeatures.OpenCartLogin">
+        <methods>
+          <include name="launchBroswer"/>
+          <include name="closeBrowser"/>
+          <include name="alertDismiss"/>
+        </methods>
+      </class> <!-- TestNGFeatures.OpenCartLogin -->
+      <class name="TestNGFeatures.TestFeatures">
+        <methods>
+          <include name="createUser"/>
+          <include name="connectDB"/>
+        </methods>
+      </class> <!-- TestNGFeatures.TestFeatures -->
+      <class name="TestNGFeatures.Orangehrm_TestNG">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- TestNGFeatures.Orangehrm_TestNG -->
+    </classes>
+  </test> <!-- Open Cart(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Practice Suite]] -->

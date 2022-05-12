@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Practice Suite]">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="url" value="https://www.orangehrm.com/hris-hr-software-demo/"/>
+  <test name="Open Cart(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="url" value="https://demo.opencart.com/admin/index.php?route=common/login"/>
+    <classes>
+      <class name="TestNGFeatures.Orangehrm_TestNG">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- TestNGFeatures.Orangehrm_TestNG -->
+      <class name="TestNGFeatures.OpenCartLogin">
+        <methods>
+          <include name="verifyLoginPage"/>
+          <include name="launchBrowser"/>
+          <include name="loginOpenCart" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- TestNGFeatures.OpenCartLogin -->
+      <class name="TestNGFeatures.TestFeatures">
+        <methods>
+          <include name="logoutPage"/>
+          <include name="disconnectDB"/>
+          <include name="deleteUSer"/>
+          <include name="login"/>
+          <include name="createUser"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="connectDB"/>
+        </methods>
+      </class> <!-- TestNGFeatures.TestFeatures -->
+    </classes>
+  </test> <!-- Open Cart(failed) -->
+  <test name="Orangehrm TestNG(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="url" value="https://www.orangehrm.com/hris-hr-software-demo/"/>
+    <classes>
+      <class name="TestNGFeatures.Orangehrm_TestNG">
+        <methods>
+          <include name="headerTextDisplayed"/>
+          <include name="pageLaunchVerification"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- TestNGFeatures.Orangehrm_TestNG -->
+      <class name="TestNGFeatures.TestFeatures">
+        <methods>
+          <include name="logoutPage"/>
+          <include name="disconnectDB"/>
+          <include name="deleteUSer"/>
+          <include name="login"/>
+          <include name="createUser"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="connectDB"/>
+        </methods>
+      </class> <!-- TestNGFeatures.TestFeatures -->
+      <class name="TestNGFeatures.OpenCartLogin">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- TestNGFeatures.OpenCartLogin -->
+    </classes>
+  </test> <!-- Orangehrm TestNG(failed) -->
+</suite> <!-- Failed suite [Practice Suite] -->
